@@ -1,1 +1,36 @@
-
+.hero-container {
+    display: flex;
+  
+    padding: 0;
+  }
+  
+  .hero-list {
+    padding-top: 159px;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 28px;
+  }
+  
+  .hero-paragraph {
+    margin-bottom: 40px;
+  }
+  
+  .hero-list>.btn.head {
+    margin-left: 0;
+  }
+  
+  .hero-image {
+    position: relative;
+    display: block;
+    width: 580px;
+    height: 580px;
+    margin-left: 138px;
+    border: 26px solid #FFE550;
+    border-radius: 50%;
+    margin-top: 14px;
+    margin-right: 0;
+    margin-left: auto;
+  }
