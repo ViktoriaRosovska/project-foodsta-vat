@@ -1,11 +1,11 @@
 {
-  "name": "Project-vanilla-app-template",
+  "name": "project-foodsta-vat",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Project-vanilla-app-template/",
+    "build": "vite build --base=/project-foodsta-vat/",
     "preview": "vite preview"
   },
   "devDependencies": {
