@@ -1,0 +1,94 @@
+.footer-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.nav-footer .list {
+  padding-top: 19px;
+  /* display: flex; */
+}
+
+.footer-section .nav {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-section .list-item:not(:last-child) {
+  margin-right: 28px;
+  margin-left: 0;
+}
+
+.footer-section .list-item:last-child {
+  margin-left: 0;
+}
+
+.footer-logo {
+  margin-right: 148px;
+}
+
+/* subscribe form */
+.form {
+  margin-left: 320px;
+  width: 395px;
+  outline: 1px solid red;
+}
+
+.form-title {
+  font-family: var(--main-font-style);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  margin-bottom: 12px;
+}
+
+.form-paragraph {
+  font-size: 12px;
+  color: var(--primary-text-color);
+  margin-top: 12px;
+}
+
+.form-link {
+  text-decoration-line: underline;
+  color: var(--main-text-accent-color);
+}
+
+/*Nadiia Bykova*/
+.footer-section {
+  background-image: url('../images/footer-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-top: var(--main-bg-color);
+  box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
+  margin-bottom: 50px;
+}
+
+.footer-link {
+  color: var(--main-text-accent-color);
+
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.list-footer {
+  display: flex;
+  gap: 20px;
+}
+
+.links-item {
+  margin-bottom: 0;
+  margin-top: 80px;
+}
+
+.last-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.text-footer {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2px;
+}
