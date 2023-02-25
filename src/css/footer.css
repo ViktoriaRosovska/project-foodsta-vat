@@ -28,9 +28,25 @@
 
 /* subscribe form */
 .form {
-  margin-left: 320px;
+  margin-right: 0;
+  margin-left: auto;
   width: 395px;
-  outline: 1px solid red;
+
+  outline: 1px solid yellowgreen;
+}
+
+.btn.light-theme-btn.form-btn {
+  margin-right: 0px;
+}
+
+.footer-mail-input {
+  box-sizing: border-box;
+ padding: 12px;
+  border-radius: 30px;
+  width: 279px;
+  height: 42px;
+  border: 1px solid rgba(255, 229, 80, 1);
+  margin-right: 13px;
 }
 
 .form-title {
@@ -42,11 +58,19 @@
   margin-bottom: 12px;
 }
 
-.form-paragraph {
-  font-size: 12px;
-  color: var(--primary-text-color);
-  margin-top: 12px;
+.media-paragraph.label {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 12px;
 }
+.subscribe-footer {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
 
 .form-link {
   text-decoration-line: underline;
@@ -63,6 +87,7 @@
   box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
   margin-bottom: 50px;
 }
+
 
 .footer-link {
   color: var(--main-text-accent-color);
