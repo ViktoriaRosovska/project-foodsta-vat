@@ -1,7 +1,10 @@
 .hero-container {
     display: flex;
-  
     padding: 0;
+  }
+  .hero-section{
+    padding-top: 0;
+    padding-bottom: 0;
   }
   
   .hero-list {
@@ -25,8 +28,8 @@
   .hero-image {
     position: relative;
     display: block;
-    width: 580px;
-    height: 580px;
+    width: 526px;
+    height: 526px;
     margin-left: 138px;
     border: 26px solid #FFE550;
     border-radius: 50%;
