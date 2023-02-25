@@ -1,1 +1,21 @@
-/* variables */
+:root {
+    --main-accent-color: #bbf330;
+    --main-clearance-color: #ffe550;
+    --main-bg-color: #fefefe;
+    --main-text-accent-color: #7eb101;
+    --main-btn-hover-color: #ffe450;
+    --clean-white-color: #ffffff;
+
+    --primary-text-color: #2c2c2c;
+    --input-email-color: #505050;
+    --secondary-bgc: #f5f5f5;
+
+    --main-font-style: "Roboto", sans-serif;
+    --main-bold-font: 700px;
+    --main-medium-font: 500px;
+
+    --items: 2;
+    --indent: 67px;
+
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
