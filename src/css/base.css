@@ -4,13 +4,13 @@
  padding-left: 16px;
  padding-right: 16px;
  margin: 0 auto;
- outline: 1px solid blue;
+ /* outline: 1px solid blue; */
 }
 
 .section {
   padding-top: 100px;
   padding-bottom: 100px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .section-title {
