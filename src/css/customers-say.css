@@ -1,19 +1,23 @@
-.customers-section {
+.customers-section.section {
     position: relative;
     padding-bottom: 134px;
     padding-top: 100px;
   }
   
-  .bg-img-top {
+.customers-container {
+  position: relative;
+}  
+.customers-container .bg-img-top {
+    top: -100px;
+    left: 0;
     background-image: url("../img/images/bg-yellow-top.png");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    top: 0;
-    left: 0;
+    
     height: 647px;
-    width: 1480px;
-    z-index: -1;
+    width: 1280px;
+    z-index: -100;
   }
   
   /* .customers-container {

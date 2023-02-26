@@ -1,16 +1,9 @@
 /* header */
-.header-section {
+.header-section.section {
   box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
   background: var(--main-bg-color);
   padding-top: 0;
   padding-bottom: 0;
-
-  /* for header position: sticky
-  position: fixed;
-  z-index: 100;
-   top: 0;
-  left: 50%;
-  transform: translate(-50%, calc(-50% + 36px)); */
 }
 
 .main-nav {
@@ -39,8 +32,6 @@
 .list .list-item+.list-item {
   margin-left: 28px;
 }
-
-
 
 .link-item {
   text-decoration: none;
