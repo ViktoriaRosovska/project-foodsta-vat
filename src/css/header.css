@@ -2,8 +2,10 @@
 .header-section {
   box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
   background: var(--main-bg-color);
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  /* margin-left: auto;
+  margin-right: auto; */
   /* for header position: sticky
   position: fixed;
   z-index: 100;
@@ -12,17 +14,19 @@
   transform: translate(-50%, calc(-50% + 36px)); */
 }
 
-.header.main-nav {
+.main-nav {
   display: flex;
+  height: 72px;
   align-items: center;
   text-decoration: none;
+  justify-content: flex-end;
 }
-
 /* logo */
 .logo {
   display: flex;
   margin-right: 735px;
   align-items: center;
+  margin-right: auto;
 }
 
 .nav .list {
@@ -37,12 +41,7 @@
   margin-left: 28px;
 }
 
-.main-nav {
-  display: flex;
-  height: 72px;
-  align-items: center;
-  text-decoration: none;
-}
+
 
 .link-item {
   text-decoration: none;
