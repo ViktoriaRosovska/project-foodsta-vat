@@ -1,7 +1,10 @@
 .hero-container {
     display: flex;
-  
     padding: 0;
+  }
+  .hero-section{
+    padding-top: 0;
+    padding-bottom: 0;
   }
   
   .hero-list {

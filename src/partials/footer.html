@@ -4,7 +4,7 @@
       <nav class="nav nav-footer">
         <a href="./index.html" class="footer-logo">
           <svg width="66" height="52">
-            <use href="./images/svg/icons.svg#icon-logo"></use>
+            <use href="../img/images/svg/logo.svg#icon-logo"></use>
           </svg>
         </a>
         <ul class="list">
@@ -15,15 +15,29 @@
           <li class="list-item"><a href="" class="link-item">Contact</a></li>
         </ul>
         <div class="form">
-          <h3 class="form-title">Subscribe</h3>
-          <div></div>
-          <button type="button" class="btn light-theme-btn form-btn">
-            Subscribe
-          </button>
-          <p class="form-paragraph">
-            By subscribing you agree to with our
-            <a href="" class="form-link">Privacy Policy</a>
-          </p>
+          <form class="footer-form">
+            <label for="footer_mail_input" class="media-paragraph label"
+              >Subscribe
+            </label>
+            <div class="subscribe-footer">
+              <input
+                type="text"
+                n
+                placeholder="Enter your email"
+                id="footer_mail_input"
+                class="footer-mail-input"
+                name="emeil-for-subscribe"
+              />
+              <button type="button" class="btn light-theme-btn form-btn">
+                Subscribe
+              </button>
+            </div>
+
+            <p class="form-paragraph">
+              By subscribing you agree to with our
+              <a href="" class="form-link">Privacy Policy</a>
+            </p>
+          </form>
         </div>
       </nav>
     </div>
