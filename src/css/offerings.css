@@ -65,9 +65,9 @@
   height: 40px;
 }
 
-/* .light-theme-btn.btn {
+.light-theme-btn.btn {
   margin-top: 32px;
-} */
+}
 
 .light-theme-btn.btn.btn-offerings:hover,
 .light-theme-btn.btn.btn-offerings:focus {
