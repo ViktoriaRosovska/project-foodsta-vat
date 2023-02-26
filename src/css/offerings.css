@@ -7,18 +7,17 @@
   padding-top: 10px;
   display: flex;
   align-items: flex-end;
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
 }
 
 .offerings-container .bg-img-bottom {
   position: absolute;
-  top: -170px;
+  top: -167px;
   left: 0;
   z-index: -100;
   background-image: url("/img/images/bg-yellow-bottom.png");
   background-size: contain;
   background-repeat: no-repeat;
-  outline: 1px solid violet;
   height: 824px;
   width: 1280px;
 }
