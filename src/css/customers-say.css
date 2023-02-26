@@ -10,7 +10,7 @@
 .customers-container .bg-img-top {
     top: -100px;
     left: 0;
-    background-image: url("../img/images/bg-yellow-top.png");
+    background-image: url("./img/images/bg-yellow-top.png");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
