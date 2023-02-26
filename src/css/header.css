@@ -4,6 +4,7 @@
   background: var(--main-bg-color);
   padding-top: 0;
   padding-bottom: 0;
+
   /* for header position: sticky
   position: fixed;
   z-index: 100;
