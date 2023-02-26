@@ -1,7 +1,7 @@
 .hero-container {
     display: flex;
   }
-  .hero-section{
+  .hero-section.section {
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -26,9 +26,8 @@
   
   .hero-image {
     position: relative;
-    width: 528px;
-    height: 528px;
-    margin-left: 138px;
+    width: 580px;
+    height: 580px;
     border: 26px solid #FFE550;
     border-radius: 50%;
     margin-top: 14px;

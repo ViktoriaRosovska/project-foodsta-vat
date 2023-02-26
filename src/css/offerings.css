@@ -1,26 +1,26 @@
-.offerings-section {
+.offerings-section.section {
+  padding-bottom: 43px;
+  padding-top: 0px;
+}
+.offerings-container {
   position: relative;
+  padding-top: 10px;
+  display: flex;
+  align-items: flex-end;
+  outline: 1px solid green;
 }
 
-.offerings-section .bg-img-bottom {
+.offerings-container .bg-img-bottom {
   position: absolute;
-  top: 0;
+  top: -170px;
   left: 0;
+  z-index: -100;
   background-image: url('../img/images/bg-yellow-bottom.png');
   background-size: contain;
   background-repeat: no-repeat;
-  /* outline: 1px solid violet; */
+  outline: 1px solid violet;
   height: 824px;
   width: 1280px;
-  z-index: -1;
-  transform: translatey(-147px);
-}
-
-.container-flex {
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 43px;
-  padding-top: 30px;
 }
 
 .offerings-list {
