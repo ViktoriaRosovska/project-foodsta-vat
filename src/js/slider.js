@@ -1,4 +1,3 @@
-
 $('.fade').slick({
   dots: false,
   infinite: true,
