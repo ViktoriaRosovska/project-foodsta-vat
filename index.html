@@ -27,8 +27,8 @@
     
     
     
-    <script type="module" crossorigin src="/project-foodsta-vat/assets/index-a1d0e369.js"></script>
-    <link rel="stylesheet" href="/project-foodsta-vat/assets/index-a5602f1b.css">
+    <script type="module" crossorigin src="/project-foodsta-vat/assets/index-3f03a091.js"></script>
+    <link rel="stylesheet" href="/project-foodsta-vat/assets/index-c7e312d2.css">
   </head>
   <body>
     <header class="section header-section">
@@ -48,7 +48,9 @@
       </ul>
     </nav>
 
-    <button type="button" data-modal-open class="btn head">Order Now</button>
+    <button type="button" class="btn head js-open-modal" data-modal="1">
+      Order Now
+    </button>
   </div>
 </header>
 
@@ -67,7 +69,9 @@
         <br />
         ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
       </p>
-      <button type="button" data-modal-open class="btn head">Order now</button>
+      <button type="button" class="btn head js-open-modal" data-modal="1">
+        Order now
+      </button>
     </div>
 
     <div class="hero-image">
@@ -142,8 +146,8 @@
         </li>
       </ul>
       <button
-        class="light-theme-btn btn btn-offerings"
-        data-modal-open
+        class="light-theme-btn btn btn-offerings js-open-modal"
+        data-modal="1"
         type="button"
       >
         Order Now
@@ -363,27 +367,50 @@
   </div>
 </footer>
 
-    <div class="backdrop">
-    <div class="modal">
-        <button class="modal-btn-close" type="button"></button>
-        <p class="modal-title">Order Form</p>
-        <form class="modal-form" name="modal_form" autocomplete="off" method="post">
-            <label class="modal-field">
-                <span class="modal-label">Name</span>
-                <input class="modal-input" type="text" name="name" placeholder="Your name" required>
-            </label>
-            <label class="modal-field">
-                <span class="modal-label">Phone number</span>
-                <input class="modal-input" type="tel" name="phone" placeholder="+38(0_ _) _ _ _   _ _   _ _" required>
-            </label>
-            <label class="modal-field">
-                <span class="modal-label">E-mail</span>
-                <input class="modal-input" type="email" name="mail" placeholder="example@gmail.com" required>
-            </label>
-        </form>
-        <button class="modal-btn-submit" type="submit">Send</button>
-    </div>
+    <div class="backdrop js-overlay-modal">
+  <div class="modal" data-modal="1">
+    <button class="js-modal-close modal-button" type="button">
+      <svg class="icon-modal-button">
+        <use href="/project-foodsta-vat/assets/icons-4e31c4db.svg#icon-close"></use>
+      </svg>
+    </button>
+    <p class="modal-title">Order Form</p>
+    <form class="modal-form" name="modal_form" autocomplete="off" method="post">
+      <label class="modal-field">
+        <span class="modal-label">Name</span>
+        <input
+          class="modal-input"
+          type="text"
+          name="name"
+          placeholder="Your name"
+          required
+        />
+      </label>
+      <label class="modal-field">
+        <span class="modal-label">Phone number</span>
+        <input
+          class="modal-input"
+          type="tel"
+          name="phone"
+          placeholder="+38(0_ _) _ _ _   _ _   _ _"
+          required
+        />
+      </label>
+      <label class="modal-field">
+        <span class="modal-label">E-mail</span>
+        <input
+          class="modal-input"
+          type="email"
+          name="mail"
+          placeholder="example@gmail.com"
+          required
+        />
+      </label>
+    </form>
+    <button class="modal-btn-submit" type="submit">Send</button>
+  </div>
 </div>
+
     
     <script
       type="text/javascript"
