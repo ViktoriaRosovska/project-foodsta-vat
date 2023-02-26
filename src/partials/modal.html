@@ -1,21 +1,43 @@
-<div class="backdrop">
-    <div class="modal">
-        <button class="modal-btn-close" type="button"></button>
-        <p class="modal-title">Order Form</p>
-        <form class="modal-form" name="modal_form" autocomplete="off" method="post">
-            <label class="modal-field">
-                <span class="modal-label">Name</span>
-                <input class="modal-input" type="text" name="name" placeholder="Your name" required>
-            </label>
-            <label class="modal-field">
-                <span class="modal-label">Phone number</span>
-                <input class="modal-input" type="tel" name="phone" placeholder="+38(0_ _) _ _ _   _ _   _ _" required>
-            </label>
-            <label class="modal-field">
-                <span class="modal-label">E-mail</span>
-                <input class="modal-input" type="email" name="mail" placeholder="example@gmail.com" required>
-            </label>
-        </form>
-        <button class="modal-btn-submit" type="submit">Send</button>
-    </div>
+<div class="backdrop js-overlay-modal">
+  <div class="modal" data-modal="1">
+    <button class="js-modal-close modal-button" type="button">
+      <svg class="icon-modal-button">
+        <use href="./img/images/svg/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <p class="modal-title">Order Form</p>
+    <form class="modal-form" name="modal_form" autocomplete="off" method="post">
+      <label class="modal-field">
+        <span class="modal-label">Name</span>
+        <input
+          class="modal-input"
+          type="text"
+          name="name"
+          placeholder="Your name"
+          required
+        />
+      </label>
+      <label class="modal-field">
+        <span class="modal-label">Phone number</span>
+        <input
+          class="modal-input"
+          type="tel"
+          name="phone"
+          placeholder="+38(0_ _) _ _ _   _ _   _ _"
+          required
+        />
+      </label>
+      <label class="modal-field">
+        <span class="modal-label">E-mail</span>
+        <input
+          class="modal-input"
+          type="email"
+          name="mail"
+          placeholder="example@gmail.com"
+          required
+        />
+      </label>
+    </form>
+    <button class="modal-btn-submit" type="submit">Send</button>
+  </div>
 </div>

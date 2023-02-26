@@ -15,7 +15,7 @@
   top: -170px;
   left: 0;
   z-index: -100;
-  background-image: url('../img/images/bg-yellow-bottom.png');
+  background-image: url('./img/images/bg-yellow-bottom.png');
   background-size: contain;
   background-repeat: no-repeat;
   outline: 1px solid violet;
