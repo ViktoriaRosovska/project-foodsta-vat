@@ -1,0 +1,76 @@
+.offerings-section {
+  position: relative;
+}
+
+.offerings-section .bg-img-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../img/images/bg-yellow-bottom.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* outline: 1px solid violet; */
+  height: 824px;
+  width: 1280px;
+  z-index: -1;
+  transform: translatey(-147px);
+}
+
+.container-flex {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 43px;
+  padding-top: 30px;
+}
+
+.offerings-list {
+  display: flex;
+  margin-right: -67px;
+}
+
+.offerings-list .list-item {
+  --items: 2;
+  --indent: 67px;
+  flex-basis: calc((100% - (var(--items) -1) * var(--indent)) / var(--items));
+  margin-right: 67px;
+}
+
+.offerings-list .link-item:last-child {
+  margin-right: 0;
+}
+
+.offer-list-paragraph {
+  font-size: 14px;
+}
+
+.offerings-icon {
+  background-color: var(--main-bg-color);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.offerings-content {
+  margin-left: 90px;
+  width: 573px;
+  padding-bottom: 43px;
+}
+
+.light-theme-btn.btn.btn-offering {
+  width: 106px;
+  height: 40px;
+}
+
+/* .light-theme-btn.btn {
+  margin-top: 32px;
+} */
+
+.light-theme-btn.btn.btn-offerings:hover,
+.light-theme-btn.btn.btn-offerings:focus {
+  background-color: var(--main-accent-color);
+  border-color: var(--main-accent-color);
+}
