@@ -5,7 +5,6 @@
 
 .nav-footer .list {
   padding-top: 19px;
-  /* display: flex; */
 }
 
 .footer-section .nav {
@@ -26,7 +25,6 @@
   margin-right: 148px;
 }
 
-/* subscribe form */
 .form {
   margin-right: 0;
   margin-left: auto;
@@ -51,9 +49,6 @@
   font-family: var(--main-font-style);
   font-weight: 400;
   line-height: 1.5;
-  
-
-  
 }
 .paragraph.label {
   font-family: var(--main-font-style);
@@ -72,11 +67,10 @@
 }
 
 .form-link {
-  text-decoration-line: underline;
   color: var(--main-text-accent-color);
+  text-decoration: none;
 }
 
-/*Nadiia Bykova*/
 .footer-section {
   background-image: url('/img/images/footer-bg.png');
   background-size: contain;
@@ -91,7 +85,6 @@
   color: var(--main-text-accent-color);
 
   font-size: 12px;
-  text-decoration: underline;
 }
 
 .list-footer {
