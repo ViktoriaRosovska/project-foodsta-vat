@@ -23,6 +23,13 @@
   min-width: 266px;
   /* outline: 1px solid blueviolet; */
 }
+.mail-input {
+  padding: 12px;
+  border-radius: 30px;
+  width: 279px;
+  height: 42px;
+  border: 1px solid rgba(255, 229, 80, 1);
+}
 
 .sub-container {
   display: flex;
