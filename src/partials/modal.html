@@ -1,7 +1,7 @@
 <div class="backdrop js-overlay-modal">
   <div class="modal" data-modal="1">
     <button class="js-modal-close modal-button" type="button">
-      <svg class="icon-modal-button">
+      <svg class="icon-modal-button" width="10.76" height="10.76">
         <use href="./img/images/svg/icons.svg#icon-close"></use>
       </svg>
     </button>
@@ -15,6 +15,9 @@
           name="name"
           placeholder="Your name"
           required
+          minlength="3"
+          maxlength="25"
+          title="The name must be between 3 and 25 characters"
         />
       </label>
       <label class="modal-field">
@@ -25,19 +28,25 @@
           name="phone"
           placeholder="+38(0_ _) _ _ _   _ _   _ _"
           required
+          pattern="+[0-9]"
+          maxlength="13"
+          title=" This phone must be in the format  099 000 00 00"
         />
       </label>
-      <label class="modal-field">
-        <span class="modal-label">E-mail</span>
+        <label for="mails">E-mail</label>
+        
         <input
           class="modal-input"
           type="email"
           name="mail"
+          id="mails"
           placeholder="example@gmail.com"
           required
+          title="Please enter a valid email address"
         />
-      </label>
+      
+       <button class="modal-btn-submit" type="submit">Send</button>
     </form>
-    <button class="modal-btn-submit" type="submit">Send</button>
+   
   </div>
 </div>
