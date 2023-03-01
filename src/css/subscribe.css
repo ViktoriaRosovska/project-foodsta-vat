@@ -1,57 +1,74 @@
 .sub-title {
-    padding-top: 46px;
-    font-family: var(--main-font-style);
-    font-weight: var(--main-bold-font);
-    font-size: 42px;
-    line-height: 50.4px;
-    color: var(--primary-text-color);
-    margin-bottom: 20px;
-  }
-  
-  .sub-paragraph {
-    font-family: var(--main-font-style);
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--primary-text-color);
-    width: 656px;
-    margin-bottom: 24px;
-  }
-  
-  .subscribe-section {
-    padding-bottom: 100px;
-    min-width: 266px;
-  
-  }
-  
-  .sub-container {
-  
-    display: flex;
-  }
+  padding-top: 46px;
+  font-family: var(--main-font-style);
+  font-weight: var(--main-bold-font);
+  font-size: 42px;
+  line-height: 50.4px;
+  color: var(--primary-text-color);
+  margin-bottom: 20px;
+}
 
+.sub-paragraph {
+  font-family: var(--main-font-style);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary-text-color);
+  width: 656px;
+  margin-bottom: 24px;
+}
 
-  /* subscribe form */
-.form {
-    margin-left: 320px;
-    width: 395px;
-    outline: 1px solid red;
-  }
-  
-  .form-title {
-    font-family: var(--main-font-style);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.5;
-    color: var(--primary-text-color);
-    margin-bottom: 12px;
-  }
-  
-  .form-paragraph {
-    font-size: 12px;
-    color: var(--primary-text-color);
-    margin-top: 12px;
-  }
-  
-  .form-link {
-    text-decoration-line: underline;
-    color: var(--main-text-accent-color);
-  }
+.section.subscribe-section {
+  padding-top: 0;
+  padding-bottom: 100px;
+  min-width: 266px;
+  /* outline: 1px solid blueviolet; */
+}
+.mail-input {
+  padding: 12px;
+  border-radius: 30px;
+  width: 279px;
+  height: 42px;
+  border: 1px solid rgba(255, 229, 80, 1);
+}
+
+.sub-container {
+  display: flex;
+}
+.sub-container > div > p {
+  margin-bottom: 24px;
+}
+.sub-container > div > h2 {
+  padding-top: 46px;
+}
+
+.subscribe-form > .btn.sub {
+  height: 42px;
+  margin-left: 54px;
+}
+.footer-mail-input.subscribe {
+  padding: 12px;
+  border-radius: 30px;
+  width: 395px;
+  height: 42px;
+  border: 1px solid rgba(255, 229, 80, 1);
+}
+/* subscribe form */
+/* .form {
+  margin-left: 320px;
+  width: 395px;
+} */
+
+.form-title {
+  font-family: var(--main-font-style);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  margin-bottom: 12px;
+}
+
+.form-paragraph {
+  font-size: 12px;
+  color: var(--primary-text-color);
+  margin-top: 12px;
+}
