@@ -7,34 +7,37 @@
     </button>
     <p class="modal-title">Order Form</p>
     <form class="modal-form" name="modal_form" autocomplete="off" method="post">
-      <label class="modal-field">
-        <span class="modal-label">Name</span>
+
+      <label class="modal-label" for="name">Name</label>
+
         <input
           class="modal-input"
           type="text"
           name="name"
+          id="name"
           placeholder="Your name"
           required
           minlength="3"
           maxlength="25"
           title="The name must be between 3 and 25 characters"
         />
-      </label>
-      <label class="modal-field">
-        <span class="modal-label">Phone number</span>
+     
+      <label class="modal-label" for="phone">Phone number</label>
         <input
           class="modal-input"
           type="tel"
           name="phone"
-          placeholder="+38(0_ _) _ _ _   _ _   _ _"
+          id="phone"
+          placeholder="38(0_ _) _ _ _   _ _   _ _"
           required
-          pattern="+[0-9]"
-          maxlength="13"
-          title=" This phone must be in the format  099 000 00 00"
+          minlength="12"
+          maxlength="12"
+          pattern="[0-9]{12}"
+          title="This phone must be in the format 38 099 000 00 00"
         />
-      </label>
-        <label for="mails">E-mail</label>
-        
+      
+        <label class="modal-label" for="mails">E-mail</label>
+      
         <input
           class="modal-input"
           type="email"
@@ -45,7 +48,7 @@
           title="Please enter a valid email address"
         />
       
-       <button class="modal-btn-submit" type="submit">Send</button>
+       <button class="modal-btn-submit hf bt" type="submit">Send</button>
     </form>
    
   </div>
